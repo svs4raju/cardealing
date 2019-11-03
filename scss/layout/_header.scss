@@ -1,0 +1,28 @@
+header {
+  background: url(../images/background.jpg);
+  height: 35rem;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 0;
+}
+
+.header__input-group {
+  font-size: 0;
+  > input {
+    font-size: 0.6rem;
+    padding: 1rem;
+    width: 15rem;
+    outline-style: none;
+    border: 0;
+  }
+  input[type="number"] {
+    width: 150px;
+    border-left: 1px solid grey;
+  }
+}

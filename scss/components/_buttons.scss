@@ -1,0 +1,11 @@
+.btn{
+    outline-style: none;
+    border: 0;
+
+    .header__input-group & {
+      padding: 1rem;
+      background-color: #342c2c;
+      vertical-align: middle;
+      @include colortext(white);
+    }
+}

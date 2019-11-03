@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/* Main */
+.cardealing{
+    font-family: 'Poppins', 'Times New Roman', Times, sans-serif;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+/* Global */
+
+.cardealing-title1{ 
+    font-size: 40px;
+    letter-spacing: 1.12px; 
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    font-weight: 600;
+    
+}
+
+
+.cardealing-title2 {
+    opacity: 0.9;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.09);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.cardealing-title3{
+    opacity: 0.8;
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 15px;
+    
+}
+
+.cardealing-title4{
+    opacity: 0.5;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.09);
+    font-size: 20px;
+    font-weight: 500;
+    color: #696969;
+    margin-bottom: 60px;
+}
+ 
+
+
+input{
+    max-width: 307px;
+    padding: 18px 20px;
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type="number"], input[type="button"]{
+    max-width: 142px;
+
+}
+
+input[type="button"]{
+    background-color: #342c2c;
+    border: none;
+    color: white;
+}
+
+
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+.btn-prime{
+    color: white;
+    background-color: #f5a623;
+    width: 100%;
+    max-width: 228px;
+    height: auto;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.14);
+    padding: 20px 25px;
+    margin-top: 50px;  
+    font-size: 14px;
+    font-weight: 500;
+    outline-style: none;
+}
+
+.popularcars .btn-prime{
+    margin-top: 20px;
+}
+
+.popularcars ul, .buyingtips ul, .brand-icon {
+    font-size: 0;
+}
+
+.popularcars li, .buyingtips li{
+
+}
+
+
+.buyingtips li:last-child,
+.popularcars li:last-child { 
+    margin-bottom: 0;
+}
+
+
+.popularcars li a, .buyingtips li a, footer li a, .brand-icon a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+ }
+
+
+/* ===  Brand ====*/
+
+
+.brand{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    padding: 40px 65px;
+    color: white;
+    
+}
+
+
+
+/*
+.brand {
+     height: 600px;
+    
+}
+
+.brand .brand-picture{
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+.brand .brand-icon{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.brand .brand-content{
+    color: white;
+    position: absolute;
+    top: 40px ;
+    left: 40px ;
+    
+} */
+
+
+
+
+/*=== Popular Cars === */
+
+.popularcars{
+    margin: 40px 20px;
+}
+
+.popularcars li{
+    max-width: 299px;
+    height: auto; 
+    border-radius: 4px; 
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+
+
+
+.popularcars li a h4{
+   font-size: 24px;     
+   font-weight: 600; 
+   opacity: 0.8;
+   text-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);  
+   letter-spacing: 0.05px;
+   padding: 10px 0;
+  
+}
+
+.popularcars li a img{
+    max-width: 239px;
+    height: 147px;
+    width: 100%; 
+    background-color: rgba(227, 227, 227, 0.73);  
+}
+
+
+
+/* == Buying tips === */
+
+.buyingtips{
+    padding: 0 20px 40px;
+}
+
+
+
+.buyingtips li{
+    display: inline-block;
+    max-width: 400px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.buyingtips li a{
+    padding: 0;
+    
+
+}
+
+
+.buyingtips li h4{
+    position: absolute;
+    color :  white;
+    font-size: 24px;
+    font-weight: 600;
+    bottom: 22px;
+    left: 36px;
+
+}
+
+
+
+
+/* == JoinUs ==*/
+
+.joinus{
+    color: white;
+    background-image: url(../images/background1.jpg);
+    background-size: cover;
+    padding: 30px 10px;
+}
+
+
+
+/*=== footer ===*/
+
+footer{
+    background-color: #342c2c;
+}
+
+footer li a{
+    color: white;
+
+}
+
+
+
+@media only screen and (min-width: 557px){
+
+    .popularcars li{
+        margin: 10px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 840px){
+
+
+   .brand{
+       height: 700px;
+   }
+   .brand-icon{
+    font-size: 0;
+    text-align: left;
+    margin-bottom: 31px;
+   }
+
+    .buyingtips li {
+        margin: 10px;
+    }
+
+    .joinus{
+        height: 348px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px){
+    .popularcars{
+        margin : 80px 85px;
+    }
+
+    .popularcars li{
+        margin: 0  25px 32px 0;
+    }
+    .popularcars li:nth-child(4){
+        margin-right: 0 ;
+    }
+
+    .buyingtips{
+        margin: 0 90px 80px;
+        padding: 0;
+ 
+    }
+    .buyingtips li{
+        margin: 0 20px 0 0 ;
+
+    }
+    .buyingtips li:last-child{
+        margin: 0;
+    }
+
+    
+
+    .joinus .joinus-content{
+        margin: 70px 0 0;
+    }
+
+
+
+    .footer .footer-links li{
+        display: inline-block;
+    }
+}

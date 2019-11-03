@@ -1,0 +1,22 @@
+html {
+  font-size: 20px;
+  font-family: "Poppins", "Times New Roman", Times, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: 1.12px;
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  font-weight: 600;
+  @include colortext(white);
+}
+
+h3 {
+  header & {
+    @include colortext(white);
+    opacity: 0.9;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.09);
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+}

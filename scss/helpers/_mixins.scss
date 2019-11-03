@@ -1,0 +1,14 @@
+@mixin  colortext($color) {
+    color: $color;
+}
+
+@mixin size($width: null, $height: null) {
+    width: $width;
+    height: $height;
+}
+
+@mixin  responsive($point) {
+    @media screen and (max-width: $point) {
+       
+    }
+}
