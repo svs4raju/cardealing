@@ -11,18 +11,3 @@ header {
   display: inline-block;
   font-size: 0;
 }
-
-.header__input-group {
-  font-size: 0;
-  > input {
-    font-size: 0.6rem;
-    padding: 1rem;
-    width: 15rem;
-    outline-style: none;
-    border: 0;
-  }
-  input[type="number"] {
-    width: 150px;
-    border-left: 1px solid grey;
-  }
-}

@@ -1,0 +1,25 @@
+footer {
+  background-color: #342c2c;
+
+
+  > .container {
+    @include flex($justifycon: space-between);
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 4.5rem;
+  }
+}
+
+.footer__list {
+  > li {
+      float: left;
+    margin-right: 0.5rem;
+    a {
+      color: white;
+      &:hover {
+        filter: brightness(80%);
+      }
+    }
+  }
+}

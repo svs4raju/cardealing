@@ -1,0 +1,27 @@
+.deals {
+  text-align: center;
+}
+
+.deals__list {
+  @include flex($justifycon: space-between, $wrap:wrap);
+}
+
+.deals__list > li {
+  width: 14rem;
+  margin-bottom: 2rem;
+  
+  @include responsive(1200px){
+    margin: 0.5rem;
+  }
+  > a {
+    color: black;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.dealsimg {
+    @include size($width: 11rem, $height: 7rem);
+  background-color: rgba(227, 227, 227, 0.73);
+}

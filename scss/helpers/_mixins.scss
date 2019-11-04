@@ -7,8 +7,20 @@
     height: $height;
 }
 
+@mixin flex($wrap:'null', $justifycon:'null', $aligncon:'null') {
+     display: flex;
+     justify-content: $justifycon;
+     flex-wrap: $wrap;
+     align-content: $aligncon;
+
+     @include responsive(1200px){
+         justify-content: space-around;
+         flex-wrap: wrap;
+     }
+}
+
 @mixin  responsive($point) {
     @media screen and (max-width: $point) {
-       
+       @content;
     }
 }

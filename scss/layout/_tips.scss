@@ -1,0 +1,49 @@
+.tips > .container {
+  text-align: center;
+}
+
+.tips__list {
+  @include flex($justifycon: space-between);
+}
+
+.tips__list li {
+  width: 18.5rem;
+  height: 10rem;
+  position: relative;
+
+  @include responsive(1200px){
+    margin: 0.5rem;
+  }
+  
+  &:hover {
+    .tipsimg {
+      filter: brightness(50%);
+    }
+    .tips__link {
+      top: 50%
+    }
+  }
+}
+
+.tips__list li > a {
+  display: inline-block;
+  font-size: 0;
+  @include size(inherit, inherit);
+  
+}
+
+.tipsimg {
+  @include size(inherit, inherit);
+  object-fit: cover;
+  transition: all 0.5s;
+}
+
+.tips__link {
+  position: absolute;
+  color: white;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: all 0.5s;
+  
+}
