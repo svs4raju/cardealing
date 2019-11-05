@@ -310,6 +310,10 @@ header h4 {
 .btn {
   outline-style: none;
   border: 0;
+  transition: 0.5s;
+}
+.btn:hover {
+  filter: brightness(90%);
 }
 
 .btn-primary {
@@ -365,11 +369,6 @@ header {
   text-align: center;
   background-size: cover;
   background-position: center;
-}
-@media screen and (max-width: 530px) {
-  header .input-group > * {
-    width: 100%;
-  }
 }
 
 .logo {

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/zbg5wkk.css" />
     <link rel="stylesheet" href="https://use.typekit.net/zbg5wkk.css" />
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body class="cardealing">
     <header class="brand">
@@ -59,19 +60,19 @@
         </h4>
 
         <ul class="deals__list">
-          <li>
+          <li data-aos="fade-up">
             <img class="dealsimg" src="images/ford.png" alt="" />
             <a href="javscriptvoid:0"> <h3>Ford Focus</h3> </a>
           </li>
-          <li>
+          <li data-aos="fade-up">
             <img class="dealsimg" src="images/skoda-fabia.png" alt="" />
             <a href="javscriptvoid:0"> <h3>Skoda Fabia</h3> </a>
           </li>
-          <li>
+          <li data-aos="fade-up">
             <img class="dealsimg" src="images/hondacivic.png" alt="" />
             <a href="javscriptvoid:0"> <h3>Honda Civic</h3> </a>
           </li>
-          <li>
+          <li data-aos="fade-up">
             <img
               class="dealsimg"
               src="images/vauxhall-corsa-3-door.png"
@@ -79,19 +80,19 @@
             />
             <a href="javscriptvoid:0"> <h3>Vayxhall Corsa</h3> </a>
           </li>
-          <li>
+          <li data-aos="fade-up">
             <img class="dealsimg" src="images/renault.png" alt="" />
             <a href="javscriptvoid:0"> <h3>Renault Celio</h3> </a>
           </li>
-          <li>
+          <li data-aos="fade-up">
             <img class="dealsimg" src="images/polo-model-1.png" alt="" />
             <a href="javscriptvoid:0"> <h3>Volkswagen Polo</h3> </a>
           </li>
-          <li>
+          <li data-aos="fade-up">
             <img class="dealsimg" src="images/Seat.png" alt="" />
             <a href="javscriptvoid:0"> <h3>Seat Ibiza</h3> </a>
           </li>
-          <li>
+          <li data-aos="fade-up">
             <img class="dealsimg" src="images/bmwi5.png" alt="" />
             <a href="javscriptvoid:0"> <h3>Bmw i5</h3> </a>
           </li>
@@ -106,9 +107,9 @@
           <h2> Our Top <span style="font-weight: 600;">Buying</span> Tips </h2>
           <h4>Make sure you make the right choice picking a car </h4> 
           <ul class="tips__list">
-               <li>  <a href="#"><img class="tipsimg"  src="images/rectangle1.jpg"> <h3 class="tips__link">Our Buyers Check List  </h3> </a></li>
-               <li> <a href="#"> <img class="tipsimg" src="images/rectangle2.jpg"> <h3 class="tips__link"> How To Spot Fraud</h3> </a> </li>
-               <li> <a href="#"> <img class="tipsimg" src="images/rectangle3.jpg"><h3 class="tips__link"> Best Used Cars 2018</h3> </a> </li>
+               <li data-aos="flip-up">  <a href="#"><img class="tipsimg"  src="images/rectangle1.jpg"> <h3 class="tips__link">Our Buyers Check List  </h3> </a></li>
+               <li data-aos="flip-up"> <a href="#"> <img class="tipsimg" src="images/rectangle2.jpg"> <h3 class="tips__link"> How To Spot Fraud</h3> </a> </li>
+               <li data-aos="flip-up"> <a href="#"> <img class="tipsimg" src="images/rectangle3.jpg"><h3 class="tips__link"> Best Used Cars 2018</h3> </a> </li>
           </h3></ul> 
           <button class="btn btn-secondary"> SEE ALL OUR GUIDES </button>
       </div>
@@ -136,13 +137,15 @@
          </div>
    </footer> 
 
-
-
-
-
-                  
-               
-    
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init(
+        {
+          duration: 2000,
+          once: true,
+        }
+      );
+   </script> 
                
   </body>
 </html>

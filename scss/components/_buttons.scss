@@ -1,6 +1,10 @@
 .btn {
   outline-style: none;
   border: 0;
+  transition: 0.5s;
+  &:hover{
+    filter: brightness(90%);
+  }
 }
 
 .btn-primary {
